@@ -11,7 +11,7 @@ public class RestExceptionHandler {
 
 	// Add an exception handler for CustomerNotFoundException
 	
-	/*@ExceptionHandler
+	@ExceptionHandler
 	public ResponseEntity<ErrorResponse> handleException(NotFoundException exc, WebRequest webRequest) {
 		
 		// create ProductErrorResponse
@@ -36,7 +36,7 @@ public class RestExceptionHandler {
 		
 		// return ResponseEntity
 		return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
-	}*/
+	}
 }
 
 

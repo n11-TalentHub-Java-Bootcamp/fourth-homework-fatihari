@@ -1,17 +1,11 @@
 package com.fatihari.homework4.rest;
 
-import com.fatihari.homework4.converter.CommentConverter;
 import com.fatihari.homework4.converter.DebtConverter;
 import com.fatihari.homework4.dto.DebtDTO;
-import com.fatihari.homework4.dto.ProductCommentDTO;
 import com.fatihari.homework4.entity.Debt;
-import com.fatihari.homework4.entity.Product;
-import com.fatihari.homework4.entity.ProductComment;
 import com.fatihari.homework4.entity.UserAccount;
 import com.fatihari.homework4.exception.NotFoundException;
-import com.fatihari.homework4.service.ICommentService;
 import com.fatihari.homework4.service.IDebtService;
-import com.fatihari.homework4.service.IProductService;
 import com.fatihari.homework4.service.IUserAccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;

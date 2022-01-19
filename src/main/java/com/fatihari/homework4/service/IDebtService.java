@@ -1,6 +1,5 @@
 package com.fatihari.homework4.service;
 
-import com.fatihari.homework4.entity.Category;
 import com.fatihari.homework4.entity.Debt;
 
 import java.util.Date;
